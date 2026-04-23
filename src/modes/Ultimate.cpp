@@ -259,8 +259,8 @@ void Ultimate::UpdateAnalogOutputs(const InputState &inputs, OutputState &output
 
             // MY Pivot Uptilt/Dtilt
             if (inputs.rt1) {
-                outputs.leftStickX = 128 + (directions.x * 34);
-                outputs.leftStickY = 128 + (directions.y * 38);
+                outputs.leftStickX = 128 + (directions.x * 38);
+                outputs.leftStickY = 128 + (directions.y * 46);
             }
         }
     }
